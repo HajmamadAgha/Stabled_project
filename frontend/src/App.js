@@ -41,7 +41,7 @@ function App() {
               <Route path="/admin" element={<AdminPanel />} />
               <Route path="/dashboard" element={<UserDashboard />} />
               <Route path="/package-selection" element={<PackageSelection />} />
-              <Route path="/payment" element={<Payment />} />
+              <Route path="/payment" element={<Auth><Payment /></Auth>} />
               {!session ? (
                 <Route path="/auth" element={<Auth />} />
               ) : (
