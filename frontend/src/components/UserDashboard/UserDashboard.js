@@ -1,24 +1,20 @@
 // src/components/UserDashboard/UserDashboard.js
-
 import React, { useState, useEffect } from 'react';
 import './UserDashboard.css';
 
-const UserDashboard = () => {
+const UserDashboard = ({ currentUser }) => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    // Fetch orders for the user from the API and set the state
     const fetchOrders = async () => {
-      // Replace this with a real API call
-      const mockOrders = [
-        { id: 1, package: 'Movie Pack', status: 'Completed', downloadUrl: '/downloads/movie-pack.zip' },
-        { id: 2, package: 'Art Pack', status: 'Pending', downloadUrl: '' },
-      ];
-      setOrders(mockOrders);
+      // Replace this with a real API call to fetch orders for the current user
+      const response = await fetch(`/api/orders?userId=${currentUser.uid}`);
+      const data = await response.json();
+      setOrders(data);
     };
 
     fetchOrders();
-  }, []);
+  }, [currentUser]);
 
   return (
     <div className="user-dashboard">

@@ -1,27 +1,32 @@
 /* src/components/UserDashboard/UserDashboard.css */
-
 .user-dashboard {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .user-dashboard h2 {
-    margin-bottom: 2rem;
-  }
-  
-  .user-dashboard table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .user-dashboard th,
-  .user-dashboard td {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    text-align: left;
-  }
-  
-  .user-dashboard th {
-    background-color: #f2f2f2;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.user-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-dashboard th,
+.user-dashboard td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.user-dashboard th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.user-dashboard a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user-dashboard a:hover {
+  text-decoration: underline;
+}

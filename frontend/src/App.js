@@ -39,7 +39,10 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/admin" element={<AdminPanel />} />
-              <Route path="/dashboard" element={<UserDashboard />} />
+              <Route
+                path="/dashboard"
+                element={<UserDashboard currentUser={session?.user} />}
+              />
               <Route path="/package-selection" element={<PackageSelection />} />
               <Route path="/payment" element={<Auth><Payment /></Auth>} />
               {!session ? (
