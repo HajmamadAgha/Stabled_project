@@ -1,0 +1,34 @@
+.StripeCardElement {
+    margin-bottom: 20px;
+  }
+  
+  .StripeCardElement > div {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .StripeCardElement button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .StripeCardElement button:hover {
+    background-color: #46a049;
+  }
+  
+  .StripeCardElement button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

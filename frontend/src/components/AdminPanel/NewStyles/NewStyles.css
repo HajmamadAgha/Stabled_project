@@ -1,0 +1,16 @@
+.new-styles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .new-styles label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .new-styles button {
+    align-self: flex-end;
+  }
+  

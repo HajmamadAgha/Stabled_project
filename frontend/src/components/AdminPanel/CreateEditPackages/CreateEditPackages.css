@@ -1,0 +1,32 @@
+.create-edit-packages {
+    margin-bottom: 2rem;
+  }
+  
+  .create-edit-packages form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .create-edit-packages label,
+  .create-edit-packages input {
+    display: block;
+  }
+  
+  .create-edit-packages .form-group {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+  }
+  
+  .create-edit-packages .form-group input[type="text"],
+  .create-edit-packages .form-group input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  .create-edit-packages .actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+  

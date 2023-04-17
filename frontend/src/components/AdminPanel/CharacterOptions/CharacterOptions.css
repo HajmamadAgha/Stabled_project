@@ -1,0 +1,13 @@
+.character-options {
+    margin-bottom: 2rem;
+  }
+  
+  .character-options label {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .character-options input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  

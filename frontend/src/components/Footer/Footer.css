@@ -1,0 +1,14 @@
+/* src/components/Footer/Footer.css */
+
+.footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,29 @@
+/* src/components/AdminPanel/SalesReports/SalesReports.css */
+
+.sales-reports {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .sales-reports table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .sales-reports th,
+  .sales-reports td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .sales-reports thead {
+    background-color: #f5f5f5;
+  }
+  
+  .sales-reports tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

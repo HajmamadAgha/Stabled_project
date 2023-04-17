@@ -1,0 +1,16 @@
+/* src/components/AdminPanel/AdminPanel.css */
+
+.admin-panel {
+    padding: 2rem;
+  }
+  
+  .admin-panel h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-panel-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
