@@ -10,7 +10,7 @@ const PackageSelection = () => {
   const navigate = useNavigate();
 
   const handlePackageSelection = (packageName, packagePrice) => {
-    setSelectedPackage({ name: packageName, price: packagePrice });
+    setSelectedPackage({ packageName, packagePrice });
     navigate('/payment');
   };
 
